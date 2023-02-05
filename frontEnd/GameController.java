@@ -78,5 +78,6 @@ public class GameController
     public static void main(String args[])
     {
         new GameController(new GameScreenWhite(),null,false).display();
+        System.out.println("Hello world");
     }
 }
